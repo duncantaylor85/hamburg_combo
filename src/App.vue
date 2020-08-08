@@ -1,28 +1,45 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <v-app>
+      <v-content app>
+        <Navbar />
+        <Welcome />
+        <v-container fluid>
+          <Hochzeit />
+          <Geburtstag />
+          <UeberUns />
+          <Kontakt />
+        </v-container>
+      </v-content>
+      <Footer />
+    </v-app>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from "@/components/Navbar";
+import Hochzeit from "@/components/Hochzeit";
+import Geburtstag from "@/components/Geburtstag";
+import UeberUns from "@/components/UeberUns";
+import Welcome from "@/components/Welcome";
+import Kontakt from "@/components/Kontakt";
+import Footer from "@/components/Footer";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
+  name: "App",
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+  components: {
+    Navbar,
+    Hochzeit,
+    Geburtstag,
+    UeberUns,
+    Welcome,
+    Kontakt,
+    Footer,
+  },
+
+  data() {
+    return {};
+  },
+};
+</script>
