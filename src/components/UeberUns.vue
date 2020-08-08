@@ -33,11 +33,11 @@
             Yamaha Wettbewerb Und den DAAD Preis in 2017. Er musiziert zurzeit mit verschiedenen Bands in Deutschland und in Ausland. Seit 2014 wohnt er in Hamburg und arbeitet als Schlagzeuger und
             Schlagzeuglehrer.
           </p>
-          <span>User <b>YouTube</b> Kanal:</span>
+          <span>Unser <b>YouTube</b> Kanal:</span>
           <v-btn x-large href="https://www.youtube.com/channel/UC7zTuLQ3XWC-lXbacqCjjQg" target="_blank" color="red" icon class="mx-2">
             <v-icon x-large>mdi-youtube</v-icon>
           </v-btn>
-          <span>Usere <b>Facebook</b> Seite:</span>
+          <span>Unsere <b>Facebook</b> Seite:</span>
           <v-btn href="https://www.facebook.com/hamburg.combo/" target="_blank" x-large color="blue" icon class="mx-2">
             <v-icon x-large>mdi-facebook</v-icon>
           </v-btn>
