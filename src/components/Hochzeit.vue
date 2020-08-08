@@ -3,7 +3,7 @@
     <v-row>
       <v-col sm="auto" md="6" class="text-justify px-8">
         <v-card flat min-height="900">
-          <h1 class="display-2 mb-6">Hochzeiten</h1>
+          <h1 class="display-2 mb-6 ">Hochzeiten</h1>
           <h3 class="mt-4 mb-2 headline blue--text text--darken-4">
             Hochzeiten mit Hamburg Combo
           </h3>
@@ -99,3 +99,10 @@ export default {
   name: "Hochzeit"
 };
 </script>
+
+<style>
+h1{
+  color: #263238;
+}
+
+</style>

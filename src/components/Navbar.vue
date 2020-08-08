@@ -1,26 +1,26 @@
 <template>
   <div id="navbar">
-    <v-app-bar app flat color="blue-grey lighten-5">
+    <v-app-bar dark app flat color="blue-grey darken-4">
       <v-app-bar-nav-icon class="hidden-md-and-up" @click="drawer = !drawer">
       </v-app-bar-nav-icon>
       <v-spacer></v-spacer>
-      <v-btn x-large class="hidden-sm-and-down" text v-scroll-to="'#hochzeit'"
+      <v-btn color="grey lighten-2" x-large class="hidden-sm-and-down" text v-scroll-to="'#hochzeit'"
         >Hochzeiten</v-btn
       >
-      <v-btn x-large class="hidden-sm-and-down" text v-scroll-to="'#geburtstag'"
+      <v-btn color="grey lighten-2" x-large class="hidden-sm-and-down" text v-scroll-to="'#geburtstag'"
         >Geburtstag</v-btn
       >
       <v-toolbar-title>
         <a
-          class="text-uppercase mx-12 mb-12 display-1 black--text"
+          class="text-uppercase mx-12 mb-12 display-1 grey--text text--lighten-2"
           v-scroll-to="'#welcome'"
           >Hamburg Combo</a
         >
       </v-toolbar-title>
-      <v-btn x-large class="hidden-sm-and-down" text v-scroll-to="'#ueberuns'"
+      <v-btn color="grey lighten-2" x-large class="hidden-sm-and-down" text v-scroll-to="'#ueberuns'"
         >Über Uns</v-btn
       >
-      <v-btn x-large class="hidden-sm-and-down" text v-scroll-to="'#kontakt'"
+      <v-btn color="grey lighten-2" x-large class="hidden-sm-and-down" text v-scroll-to="'#kontakt'"
         >Kontakt</v-btn
       >
 
@@ -89,4 +89,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+
+</style>

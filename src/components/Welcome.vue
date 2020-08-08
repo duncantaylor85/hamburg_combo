@@ -4,7 +4,7 @@
       <v-row style="height: 600px;" justify="space-around">
         <v-col align-self="end" cols="2">
           <v-card-actions class="justify-center">
-            <v-btn v-scroll-to="'#kontakt'" color="white" large>Buchen Sie uns!</v-btn>
+            <v-btn  outlined  v-scroll-to="'#kontakt'" color="deep-orange" x-large>Buchen Sie uns!</v-btn>
           </v-card-actions>
         </v-col>
       </v-row>
